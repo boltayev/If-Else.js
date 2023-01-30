@@ -22,3 +22,22 @@ if(user1.ages1 > user2.ages2){
 else{
     console.log('Ikkinchi kiritilgan shaxsni yoshi kichik');
 }
+
+
+// ==========================================Temp//////==========
+// ==========================================Temp//////==========
+function getCardNumber(cardnumber){
+    const getCard = [];
+    
+    for (let i = 0; i < cardnumber.length; i++){
+        if(i < cardnumber.length - 4 ){
+            getCard.push( '*' );
+        } else{
+            getCard.push(cardnumber[i])
+        }
+    }
+    return getCard.join('')
+    }
+    sasa = [2132322424322211]
+    let salom = getCardNumber(sasa)
+    console.log(getCardNumber(salom))
